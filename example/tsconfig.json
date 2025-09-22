@@ -1,0 +1,10 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "strict": false, 
+    "baseUrl": ".",
+    "paths": {
+      "react-native-maps": ["../src/index.ts"]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "react-native-maps": ["./src/index"]
+    },
+    "declaration": true,
+    "declarationMap": false,
+    "outDir": "dist",
+    "rootDir": ".",
+    // required for project references (optional if not used)
+    "composite": true,
+    "verbatimModuleSyntax": true
+  },
+  "include": ["src", "plugin"],
+  "exclude": ["**/Pods/**", "dist"]
+}
